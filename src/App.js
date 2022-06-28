@@ -1,11 +1,13 @@
 
 import Welcome from "./components/welcome";
+import ListCards from "./list-cards";
+
 
 function App() {
   return (
-    <div>
-      
+    <div>      
       <Welcome/>
+      <ListCards/>
     </div>
   );
 }
