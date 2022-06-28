@@ -71,6 +71,5 @@ const books = [
         "author":"Silvia Federici",
         "image": "https://images-na.ssl-images-amazon.com/images/I/71sA1NBc89L.jpg",
         "genre: "Economía",
-    },
-
+    }
 ]
