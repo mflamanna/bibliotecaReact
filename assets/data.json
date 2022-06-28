@@ -1,4 +1,5 @@
-const books = [
+{ 
+    "books":[
     {
         "id": 1,
         "bookName": "Feminisimo para principantes",
@@ -6,7 +7,7 @@ const books = [
         "editorial": "Penguin Random House",
         "author":"Nuria Varela",
         "image": "https://images-na.ssl-images-amazon.com/images/I/819SKuVK7bL.jpg",
-        "genre: "Políticas de igualdad",
+        "genre": "Políticas de igualdad"
     },
     {
         "id": 2,
@@ -15,7 +16,7 @@ const books = [
         "editorial": "Penguin Random House",
         "author":"Nuria Varela",
         "image": "https://images-na.ssl-images-amazon.com/images/I/71ESReSR7SL.jpg",
-        "genre: "Políticas de igualdad",
+        "genre": "Políticas de igualdad"
 
     },
     {
@@ -25,7 +26,7 @@ const books = [
         "editorial": "Libros del K.O.",
         "author":"June Fernandez",
         "image": "https://images-na.ssl-images-amazon.com/images/I/719zXMAPgTL.jpg",
-        "genre: "Medios de comunicación",
+        "genre": "Medios de comunicación"
     },
     {
         "id": 4,
@@ -34,7 +35,7 @@ const books = [
         "editorial": "Libros del zorro rojo",
         "author":"Kate Hodges",
         "image": "https://librosdelzorrorojo.com/wp-content/uploads/2020/10/COVER_Mujeres_WEB.jpg",
-        "genre: "Historia",
+        "genre": "Historia"
     },
     {
         "id": 5,
@@ -43,7 +44,7 @@ const books = [
         "editorial": "Grandes Temas, Cátedra",
         "author":"Erika Bornay",
         "image": "https://www.catedra.com/imagenes/libros/grande/9788437641348-las-hijas-de-lilith.jpg",
-        "genre: "Cultura",
+        "genre": "Cultura"
     },
     {
         "id": 6,
@@ -52,7 +53,7 @@ const books = [
         "editorial": "dpr-barcelona",
         "author":"Zaida Muxí Martínez",
         "image": "https://imagessl9.casadellibro.com/a/l/t5/49/9788494938849.jpg",
-        "genre: "Cultura",
+        "genre": "Cultura"
     },
     {
         "id": 7,
@@ -61,7 +62,7 @@ const books = [
         "editorial": "Catarata",
         "author":"S. García Dauder y Eulalia Pérez Sedeño",
         "image": "https://images-na.ssl-images-amazon.com/images/I/51D6Z3KM5rL.jpg",
-        "genre: "Ciencia y tecnología",
+        "genre": "Ciencia y tecnología"
     },
     {
         "id": 8,
@@ -70,6 +71,7 @@ const books = [
         "editorial": "Virus",
         "author":"Silvia Federici",
         "image": "https://images-na.ssl-images-amazon.com/images/I/71sA1NBc89L.jpg",
-        "genre: "Economía",
+        "genre": "Economía"
     }
 ]
+}

@@ -1,5 +1,3 @@
-import './cardstyle.css'
-
 function BookItem ({bookname, year, editorial, author, image, genre}) {
     return (
         <article className="list-book-item">
@@ -9,7 +7,7 @@ function BookItem ({bookname, year, editorial, author, image, genre}) {
               alt={bookname}
             ></img>
             <h3>
-              {bookname}
+              {bookname}    
               <span>{author}</span>
               <span>{genre}</span>
               <span>{year}</span>
