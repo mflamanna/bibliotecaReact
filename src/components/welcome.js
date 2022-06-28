@@ -8,6 +8,4 @@ export default function Welcome(){
         <img src = {welcoImage} alt = "Imagen libro"/>
     </>
     )
-    
-
 }
