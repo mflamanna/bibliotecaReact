@@ -1,9 +1,11 @@
-import NavBar from "./navBar";
+
+import Welcome from "./components/welcome";
 
 function App() {
   return (
     <div>
-      <NavBar/>
+      
+      <Welcome/>
     </div>
   );
 }

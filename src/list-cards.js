@@ -1,5 +1,5 @@
 import BookItem from "./BookItem";
-import '../src';
+import '../Index';
 
 function ListCards() {
     const bookList = books.map (item => { 
