@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/welcome.css'
-import welcoImage from "../assets/img/Home-book.png";
+import welcoImage from "../assets/img/welcome-image.jpg";
 
 function Welcome(){
     return(

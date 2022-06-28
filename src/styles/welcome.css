@@ -26,9 +26,10 @@
 
 .welcome-sec-right{
     display: flex;
-    justify-items: end;
+    flex-direction: column;
+    align-items: center;
 }
 .welcome-img{
-    width: 650px;
-    height: 850px;
+    width: 800px;
+    height: 800px;
 }
