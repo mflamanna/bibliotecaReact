@@ -1,6 +1,6 @@
 import welcoImage from "../assets/img/Home-book.png";
 
-export default function Welcome(){
+function Welcome(){
     return(
     <>
         <h2>Welcome to Feminist Library</h2>
@@ -9,3 +9,5 @@ export default function Welcome(){
     </>
     )
 }
+
+export default Welcome;

@@ -1,5 +1,5 @@
 import BookItem from "./BookItem";
-import bookfile from "./assets/data.json";
+import bookfile from "../assets/data.json";
 
 export default function ListCards() {
     const bookList = bookfile.books.map (item => { 
