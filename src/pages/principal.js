@@ -6,6 +6,8 @@ function Principal() {
   return (
     <div>
       <NavBar/>
+
+
     </div>
   );
 }
