@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Jost:wght@300;400;600&display=swap');
 
-.card-body{
-    list-style: none;
+.card .h-100{
+    
 }
 
-.col{
-    width:15%;
+.card-body{
+    list-style: none;
+    margin: 20px;
+}
+
+.card-body{
     font-size: smaller;
+    font-family: 'Gabriela';
 }
 
 .card-img-top{
