@@ -5,16 +5,17 @@ function BookItem ({bookname, year, editorial, author, image, genre}) {
         <article className="list-book-item">
           <div className="list-book-item-content">
             <img src={image} alt={bookname}/>
-            <h3>
-              {bookname}    
-              <span>{author}</span>
-              <span>{genre}</span>
-              <span>{year}</span>
-              <span>{editorial}</span>
-            </h3>
+            <ul>
+              <li>{bookname}</li> 
+              <li >{author}</li>
+              <li >{genre}</li>
+              <li>{year}</li>
+              <li>Editorial {editorial}</li>
+            </ul>
           </div>
         </article>
     );
 }
 
 export default BookItem;
+
