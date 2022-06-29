@@ -6,8 +6,7 @@ function Principal() {
   return (
     <div>
       <NavBar/>
-
-
+      <ListCards/> 
     </div>
   );
 }

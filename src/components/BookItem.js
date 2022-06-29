@@ -1,22 +1,23 @@
+import "../styles/cardstyle.css"
+import "../assets/data.json"
 
-
-function BookItem ({bookname, year, editorial, author, image, genre}) {
+function BookItem ({ bookName, year, editorial, author, image, genre }) {
     return (
-        <article className="list-book-item">
-          <div className="list-book-item-content">
-            <img
-              src={image}
-              alt={bookname}
-            ></img>
-            <h3>
-              {bookname}    
-              <span>{author}</span>
-              <span>{genre}</span>
-              <span>{year}</span>
-              <span>{editorial}</span>
-            </h3>
+      <div>
+        <div>
+        <div class="card h-100">
+            <img className="card-img-top" src={image}/>
+            <ul className="card-body">
+              <li className="card-title"><h5>{bookName}</h5></li>  
+              <li class="card-textauthor"><h6>Escrito por {author}</h6></li>
+              <li class="card-textedit"><p>Editorial {editorial}</p></li>
+              <li class="card-textyear">Año {year}</li>
+              <li class="card-textgenre">{genre}</li>
+
+            </ul>
           </div>
-        </article>
+          </div>
+          </div>
     );
 }
 
