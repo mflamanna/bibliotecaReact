@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
 import Principal from '../pages/principal';
 import WelcomePage from '../pages/welcomePage';
+import NewBook from '../pages/newBook';
 
 function Router (){
     return (
@@ -10,6 +11,7 @@ function Router (){
             <Routes>
                 <Route path='/' element={<WelcomePage/>} />
                 <Route path='/principal' element={<Principal/>} />
+                <Route path='/newBook' element={<NewBook/>} />
                 
             </Routes>
         </BrowserRouter>
