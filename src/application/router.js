@@ -5,6 +5,7 @@ import ModBook from '../pages/modifiedBook';
 import Principal from '../pages/principal';
 import WelcomePage from '../pages/welcomePage';
 import NewBook from '../pages/newBook';
+import DetailBook from '../pages/detailBook';
 
 function Router (){
     return (
@@ -14,6 +15,7 @@ function Router (){
                 <Route path='/principal' element={<Principal/>} />
                 <Route path='/modifiedBook' element={<ModBook/>} />
                 <Route path='/newBook' element={<NewBook/>} />
+                <Route path='/detailBook' element={<DetailBook/>}/>
             </Routes>
         </BrowserRouter>
     )
