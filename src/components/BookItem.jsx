@@ -1,5 +1,4 @@
 import "../styles/cardstyle.css"
-import "../assets/data.json"
 import { NavLink } from "react-router-dom";
 import DetailBook from "../pages/detailBook";
 

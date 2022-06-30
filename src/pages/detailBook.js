@@ -1,6 +1,5 @@
 import NavBar from "../components/navBar";
 import InfoBook from "../components/InfoBook";
-
 function DetailBook() {
   return (
     <> 
