@@ -5,7 +5,7 @@ function BookItem ({ bookName, year, editorial, author, image, genre }) {
       <>
       <div>
         <div>
-        <div class="card h-100">
+        <div class="card h-100 w-30 p-3">
             <img className="card-img-top" src={image}/>
             <ul className="card-body">
               <li className="card-title"><h5>{bookName}</h5></li>
