@@ -10,10 +10,12 @@ export default function ListCards() {
         )
     })
     return (
-        <div className="contentBooks">
+        <div className="d-flex justify-content-center">
+        <div className="contentBooks ">
         <main className="row row-cols-1 row-cols-md-4">
             {bookList}
         </main>
+        </div>
         </div>
     );
 }

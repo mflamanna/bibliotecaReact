@@ -1,6 +1,5 @@
 import image from "../assets/img/logotransparent.png"
 import '../styles/navBar.css'
-import WelcomePage from "../pages/welcomePage";
 
 function NavBar (){
     return (
@@ -14,7 +13,7 @@ function NavBar (){
             <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/">Home</a>
+            <a className="nav-link active" aria-current="page" href="/principal">Home</a>
             </li>
             <li className="nav-item">
             <a className="nav-link" href="/newBook">Create</a>

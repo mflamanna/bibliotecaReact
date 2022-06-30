@@ -1,8 +1,10 @@
 import '../styles/newBookItem.css'
+import { NavLink } from "react-router-dom";
 
 function NewBookItem(){
     return(
         <>
+    <div className="d-flex justify-content-center">
         <div className="container-sm w-50 p-3 mt-4">
             <p className="titleForm">Please fill the form to create a new book</p>
             <div className="mb-3">
@@ -38,9 +40,12 @@ function NewBookItem(){
             <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
             </div>
             <button type="submit" class="btn btn-light m-3">Submit</button>
+            <NavLink to = "/principal">
             <button class="btn btn-light m-3">Cancel</button>
+            </NavLink>
 
 
+        </div>
         </div>
         </>
     )
