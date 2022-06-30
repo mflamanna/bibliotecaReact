@@ -6,7 +6,6 @@ function WelcomePage() {
   return (
     <div>      
       <Welcome/>
-      <Principal/>
     </div>
   );
 }
