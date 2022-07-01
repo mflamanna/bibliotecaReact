@@ -1,6 +1,7 @@
 import "../styles/cardstyle.css"
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import DetailBook from "../pages/detailBook";
+
 
 function BookItem ({ bookName, year, editorial, author, image, genre }) {
     return (
@@ -8,9 +9,9 @@ function BookItem ({ bookName, year, editorial, author, image, genre }) {
       <div>
         <div>
         <div className="card h-100 mt-3">
-          <NavLink to = "/detailBook">
+          <Link to = "/detailBook">
             <img className="card-img-top" src={image}/>
-          </NavLink>
+          </Link>
             <ul className="card-body">
               <li className="card-title"><h5>{bookName}</h5></li>
               <li className="card-textauthor"><p>By {author}</p></li>

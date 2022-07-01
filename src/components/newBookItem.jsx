@@ -1,5 +1,5 @@
 import '../styles/newBookItem.css'
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NewBookItem(){
     return(
@@ -40,11 +40,9 @@ function NewBookItem(){
             <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
             </div>
             <button type="submit" class="btn btn-light m-3">Submit</button>
-            <NavLink to = "/principal">
+            <Link to = "/principal">
             <button class="btn btn-light m-3">Cancel</button>
-            </NavLink>
-
-
+            </Link>
         </div>
         </div>
         </>

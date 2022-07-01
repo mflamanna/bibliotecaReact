@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import '../styles/welcome.css';
 import welcoImage from "../assets/img/welcome-image.jpg";
 
@@ -9,9 +9,9 @@ function Welcome(){
     <div className = "welcome-container">
         <div className = "welcome-sec-left">
             <h2 className = "welcome-h2" >Welcome to Feminist Library</h2>
-            <NavLink to ="/principal">
+            <Link to ="/principal">
               <button type = "button" className="btn btn-secondary" >Press here to start</button>   
-            </NavLink>
+            </Link>
               
         </div>
         <div className = "welcome-sec-right">

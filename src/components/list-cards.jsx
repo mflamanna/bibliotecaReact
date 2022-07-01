@@ -4,16 +4,11 @@ import "../styles/liststyles.css";
 
 
 export default function ListCards() {
-    const bookList = bookfile.books.map (item => { 
-        return (
-            <BookItem bookName={item.bookName} author={item.author} genre={item.genre} year={item.year} editorial={item.editorial} image={item.image}/>
-        )
-    })
-    return (
+   return (
         <div className="d-flex justify-content-center">
         <div className="contentBooks ">
-        <main className="row row-cols-1 row-cols-md-4">
-            {bookList}
+        <main className="flex-wrap row row-cols-1 row-cols-md-4">
+        {bookfile.books.map (item => <BookItem bookName={item.bookName} key={item.id} author={item.author} genre={item.genre} year={item.year} editorial={item.editorial} image={item.image}/>)}
         </main>
         </div>
         </div>

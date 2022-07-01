@@ -1,5 +1,6 @@
 import image from "../assets/img/logotransparent.png"
 import '../styles/navBar.css'
+import {Link} from "react-router-dom"
 
 function NavBar (){
     return (
@@ -16,7 +17,7 @@ function NavBar (){
             <a className="nav-link active" aria-current="page" href="/principal">Home</a>
             </li>
             <li className="nav-item">
-            <a className="nav-link" href="/newBook">Create</a>
+            <Link className="nav-link" to ="/newBook">Create</Link>
             </li>
             <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
