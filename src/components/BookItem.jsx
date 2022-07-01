@@ -7,7 +7,7 @@ function BookItem ({ bookName, year, editorial, author, image, genre }) {
       <>
       <div>
         <div>
-        <div className="card h-100">
+        <div className="card h-100 mt-3">
           <NavLink to = "/detailBook">
             <img className="card-img-top" src={image}/>
           </NavLink>
