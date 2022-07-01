@@ -1,12 +1,14 @@
 import "../assets/data.json"
+import "../styles/detailBook.css"
 
 function InfoBook () {
     return(
         <>
-        <div class="card mb-3">
-        <div class="row g-0">
-            <div class="col-md-4">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/819SKuVK7bL.jpg" class="img-fluid rounded-start" alt="Feminismo para principiantes"></img>
+        <div className="d-flex justify-content-center">
+        <div className="card mb-3 w-50 h-auto mt-5 ">
+        <div className="row g-0">
+            <div className="col-md-4 d-flex align-items-center">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/819SKuVK7bL.jpg" className="img-fluid rounded-start" alt="Feminismo para principiantes"></img>
             </div>
             <div className="col-md-8">
                 <div className="card-body">
@@ -16,6 +18,7 @@ function InfoBook () {
                 </div>
             </div>
             </div>  
+            </div>
             </div>                            
         </>
     )
