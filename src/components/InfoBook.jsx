@@ -4,7 +4,7 @@ import "../styles/detailBook.css"
 function InfoBook () {
     return(
         <>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center ">
         <div className="card mb-3 w-50 h-auto mt-5 ">
         <div className="row g-0">
             <div className="col-md-4 d-flex align-items-center">
