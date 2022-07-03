@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Jost:wght@300;400;600&display=swap');
 
-.card{
+.cardBookItem{
     min-width: 200px;
     max-width: 250px;
     width: 210px;
     height: 610px !important;
 }
 
-.card-body{
+.cardBodyBook{
     font-size: smaller;
     font-family: 'Gabriela';
     list-style: none;
     margin: 20px;
 
 }
-.card-img-top{
+.cardImgBook{
     max-width: 100%;
     max-height: 100%;
     width: 240px;

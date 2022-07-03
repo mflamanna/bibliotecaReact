@@ -8,11 +8,11 @@ function BookItem ({ bookName, year, editorial, author, image, genre }) {
       <>
       <div>
         <div>
-        <div className="card h-100 mt-3">
+        <div className="cardBookItem card h-100 mt-3">
           <Link to = "/detailBook">
-            <img className="card-img-top" src={image}/>
+            <img className="cardImgBook card-img-top" src={image}/>
           </Link>
-            <ul className="card-body">
+            <ul className="cardBodyBook card-body">
               <li className="card-title"><h5>{bookName}</h5></li>
               <li className="card-textauthor"><p>By {author}</p></li>
               <li className="card-textedit"><p>Edithorial {editorial}</p></li>
