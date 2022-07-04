@@ -22,9 +22,9 @@ function BookItem ({ bookName, year, editorial, author, image, genre }) {
             </ul>
             <div className="contenedorIconos">
             <Link to="/modifiedBook">
-              <img src={iconoEditar} className="icono"/>
+              <img src={iconoEditar} className="icono" alt="imagen icono editar"/>
             </Link>
-            <img src={iconoEliminar} className="icono"/>
+            <img src={iconoEliminar} className="icono" alt="imagen icono eliminar"/>
             </div>
           
           </div>
