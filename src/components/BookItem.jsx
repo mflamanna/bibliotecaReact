@@ -1,6 +1,5 @@
 import "../styles/cardstyle.css"
 import { Link } from "react-router-dom";
-import DetailBook from "../pages/detailBook";
 
 
 function BookItem ({ bookName, year, editorial, author, image, genre }) {
@@ -10,7 +9,7 @@ function BookItem ({ bookName, year, editorial, author, image, genre }) {
         <div>
         <div className="cardBookItem card h-100 mt-3">
           <Link to = "/detailBook">
-            <img className="cardImgBook card-img-top" src={image}/>
+            <img className="cardImgBook card-img-top" src={image} alt ="imagen de libro"/>
           </Link>
             <ul className="cardBodyBook card-body">
               <li className="card-title"><h5>{bookName}</h5></li>
