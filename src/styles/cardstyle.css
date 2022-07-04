@@ -4,7 +4,7 @@
     min-width: 200px;
     max-width: 250px;
     width: 210px;
-    height: 610px !important;
+    height: 660px !important;
 }
 
 .cardBodyBook{
@@ -19,4 +19,20 @@
     max-height: 100%;
     width: 240px;
     height: 280px;
+}
+
+.icono{
+    width:30px;
+    background-color: white;
+
+}
+
+.contenedorIconos{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
 }

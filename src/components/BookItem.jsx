@@ -8,7 +8,6 @@ import iconoEliminar from "../assets/img/eliminar.png"
 function BookItem ({ bookName, year, editorial, author, image, genre }) {
     return (
       <>
-      <div>
         <div>
         <div className="cardBookItem card h-100 mt-3">
           <Link to = "/detailBook">
@@ -20,16 +19,17 @@ function BookItem ({ bookName, year, editorial, author, image, genre }) {
               <li className="card-textedit"><p>Edithorial {editorial}</p></li>
               <li className="card-textyear">{year}</li>
               <li className="card-textgenre">{genre}</li>
-              <div className="iconos">
-            <img src={iconoEditar}/>
-            <img src={icono}/>
-
-          </div>
             </ul>
+            <div className="contenedorIconos">
+            <Link to="/modifiedBook">
+              <img src={iconoEditar} className="icono"/>
+            </Link>
+            <img src={iconoEliminar} className="icono"/>
+            </div>
           
           </div>
           </div>
-          </div>
+        
           </>
     );
 }
