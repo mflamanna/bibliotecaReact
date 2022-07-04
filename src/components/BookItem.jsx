@@ -1,5 +1,8 @@
 import "../styles/cardstyle.css"
 import { Link } from "react-router-dom";
+import iconoEditar from "../assets/img/editar.png";
+import iconoEliminar from "../assets/img/eliminar.png"
+
 
 
 function BookItem ({ bookName, year, editorial, author, image, genre }) {
@@ -17,7 +20,13 @@ function BookItem ({ bookName, year, editorial, author, image, genre }) {
               <li className="card-textedit"><p>Edithorial {editorial}</p></li>
               <li className="card-textyear">{year}</li>
               <li className="card-textgenre">{genre}</li>
+              <div className="iconos">
+            <img src={iconoEditar}/>
+            <img src={icono}/>
+
+          </div>
             </ul>
+          
           </div>
           </div>
           </div>
