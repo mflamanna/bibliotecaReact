@@ -16,7 +16,7 @@ function ListCards (){
         <main className="flex-wrap row row-cols-1 row-cols-md-4">
         {
             booksApi.map((item,index)=>(
-                <BookItem key={index} titol={item.titol} autoria={item.autoria}/>
+                <BookItem key={index} titol={item.titol} autoria={item.autoria} isbn={item.isbn}/>
             ))
         }
         </main>

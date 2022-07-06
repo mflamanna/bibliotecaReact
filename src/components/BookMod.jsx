@@ -1,4 +1,3 @@
-import React from 'react'
 
 export default function BookMod({bookname, year, editorial, author, image, genre}) {
   return (
