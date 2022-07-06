@@ -1,7 +1,7 @@
+import axios from "axios";
 import "../assets/data.json"
 import "../styles/detailBook.css"
 
-//Gaby te quiero
 function InfoBook () {
     return(
         <>
