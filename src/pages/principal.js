@@ -1,5 +1,5 @@
 import BookList from "../components/BookList";
-import NavBar from "../components/navBar";
+import NavBar from "../components/NavBar";
 
 
 function Principal() {

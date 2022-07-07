@@ -1,5 +1,5 @@
-import NewBookItem from "../components/newBookItem";
-import NavBar from "../components/navBar";
+import NewBookItem from "../components/NewBookItem";
+import NavBar from "../components/NavBar";
 
 function NewBook (){
     return (

@@ -4,8 +4,8 @@ import '../styles/welcome.css';
 import welcoImage from "../assets/img/welcome-image.jpg";
 
 function Welcome(){
-    return(
-    <>
+return(
+<>
     <div className = "welcome-container">
         <div className = "welcome-sec-left">
             <h2 className = "welcome-h2" >Welcome to Feminist Library</h2>
@@ -17,8 +17,8 @@ function Welcome(){
             <img className="welcome-img" src = {welcoImage} alt = "Imagen libro"/>  
         </div>   
     </div>
-    </>
-    )
+</>
+ )
 }
 
 export default Welcome;

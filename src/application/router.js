@@ -8,17 +8,16 @@ import NewBook from '../pages/newBook';
 import DetailBook from '../pages/detailBook';
 
 function Router (){
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path='/' element={<WelcomePage/>} />
-                <Route path='/principal' element={<Principal/>} />
-                <Route path='/modifiedBook' element={<ModBook/>} />
-                <Route path='/newBook' element={<NewBook/>} />
-                <Route path='/detailBook' element={<DetailBook/>}/>
-            </Routes>
-        </BrowserRouter>
+return (
+    <BrowserRouter>
+        <Routes>
+            <Route path='/' element={<WelcomePage/>} />
+            <Route path='/principal' element={<Principal/>} />
+            <Route path='/modifiedBook' element={<ModBook/>} />
+            <Route path='/newBook' element={<NewBook/>} />
+            <Route path='/detailBook' element={<DetailBook/>}/>
+        </Routes>
+    </BrowserRouter>
     )
 }
-
 export default Router;

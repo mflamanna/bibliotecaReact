@@ -1,4 +1,4 @@
-import NavBar from "../components/navBar";
+import NavBar from "../components/NavBar";
 import InfoBook from "../components/InfoBook";
 function DetailBook() {
   return (

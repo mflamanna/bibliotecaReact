@@ -1,5 +1,5 @@
 import BookMod from "../components/BookMod";
-import NavBar from "../components/navBar";
+import NavBar from "../components/NavBar";
 
 function ModBook() {
   return (
