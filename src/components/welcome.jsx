@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import '../styles/welcome.css';
 import welcoImage from "../assets/img/welcome-image.jpg";
-import ImageBook from "./ImageBook";
 
 function Welcome(){
     return(
