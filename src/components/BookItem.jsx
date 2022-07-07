@@ -2,17 +2,17 @@ import "../styles/cardstyle.css"
 import { Link } from "react-router-dom";
 import iconoEditar from "../assets/img/editar.png";
 import iconoEliminar from "../assets/img/eliminar.png"
+import ImageBook from "./ImageBook";
 
 
 
 function BookItem ({ titol, isbn, autoria, descriptors }) {
-  let imagen = "https://covers.openlibrary.org/b/isbn/"+isbn+"-M.jpg"
     return (
       <>
         <div>
         <div className="cardBookItem card h-100 mt-3">
           <Link to = "/detailBook">
-            <img className="cardImgBook card-img-top" src={imagen} alt ="imagen de libro"/>
+            <ImageBook isbn= {isbn}/>
           </Link>
             <ul className="cardBodyBook card-body">
               <li className="card-title"><h5>{titol}</h5></li>
