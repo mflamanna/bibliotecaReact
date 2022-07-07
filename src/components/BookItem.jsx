@@ -17,7 +17,7 @@ function BookItem ({ titol, isbn, autoria, descriptors }) {
             <ul className="cardBodyBook card-body">
               <li className="card-title"><h5>{titol}</h5></li>
               <li className="card-textauthor"><p>By {autoria}</p></li>
-              <li className="card-textisbn">{isbn}</li>
+              <li className="card-textisbn">ISBN {isbn}</li>
               <li className="card-textgenre">{descriptors}</li>
             </ul>
             <div className="contenedorIconos">
