@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import BookItem from "./BookItem";
 import "../styles/liststyles.css";
 
-function ListCards (){
+function BookList (){
     const [booksApi, setBooksApi] = useState([]);
     useEffect (()=>{
         fetch("https://sheetlabs.com/MELQ/catalog")
@@ -26,5 +26,5 @@ function ListCards (){
 
 }
 
-export default ListCards
+export default BookList
 

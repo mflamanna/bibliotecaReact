@@ -1,4 +1,4 @@
-import ListCards from "../components/list-cards";
+import BookList from "../components/BookList";
 import NavBar from "../components/navBar";
 
 
@@ -6,7 +6,7 @@ function Principal() {
   return (
     <div>
       <NavBar/>
-      <ListCards/> 
+      <BookList/> 
     </div>
   );
 }
