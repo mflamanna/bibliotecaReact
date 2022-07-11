@@ -5,7 +5,7 @@ import "../styles/liststyles.css";
 function BookList (){
     const [booksApi, setBooksApi] = useState([]);
     useEffect (()=>{
-        fetch("https://sheetlabs.com/MELQ/catalog")
+        fetch("http://localhost:5000/books")
         .then (response=>response.json())
         .then (data=>setBooksApi(data))
     })
