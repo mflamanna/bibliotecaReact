@@ -1,14 +1,17 @@
 import React, {useState, useEffect} from "react";
 import BookItem from "./BookItem";
 import "../styles/liststyles.css";
+import axios from "axios";
 
 function BookList (){
     const [booksApi, setBooksApi] = useState([]);
     useEffect (()=>{
-        fetch("http://localhost:5000/books")
-        .then (response=>response.json())
-        .then (data=>setBooksApi(data))
-    })
+        axios.get("http://localhost:5000/books")
+        .then ((res)=> {
+            setBooksApi(res.data)
+        })
+
+    },[])
 
     return(
         <div className="d-flex justify-content-center">
@@ -27,3 +30,7 @@ function BookList (){
 
 export default BookList
 
+  /*fetch("http://localhost:5000/books")
+        .then (response=>response.json())
+        .then (data=>setBooksApi(data))
+        */
