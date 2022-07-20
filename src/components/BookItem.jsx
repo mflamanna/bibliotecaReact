@@ -9,7 +9,7 @@ return (
 <>
   <div>
     <div className="cardBookItem card h-100 mt-3">
-      <Link to = "/detailBook">
+      < Link to = "/detailBook">
         <ImageBook isbn= {isbn}/>
       </Link>
       <ul className="cardBodyBook card-body">
